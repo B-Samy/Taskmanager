@@ -1,0 +1,402 @@
+@media screen and (max-width:290px){
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.Sidebay{
+    /* display: none; */
+    width: 0;
+}
+
+.btnimage:hover {
+    background-color: transparent;
+    /* border-radius: 5px; */
+    cursor: default;
+}
+
+.recenthome{
+    min-height: 50vw;
+    width: 100vw;
+    left: -.9vw;
+    z-index: ;
+    position: relative;
+    background-color: #111;
+    background-color: #7980FF;
+
+}
+
+
+.baycheck{
+    position: fixed;
+    left: 24vw;
+    top: 0vw;
+    z-index: 9;
+}
+
+.baycheck img  {
+    width: 15vw;
+    position: relative;
+    left: -20vw;
+    top: 2vw;
+  
+}
+
+.baycheck p {
+    color: #fff;
+    font-size: 6vw;
+    letter-spacing: .5px;
+    position: relative;
+    left: -17vw;
+}
+.bellhell{
+    color: #fff;
+    margin: 0vw 0vw 0vw 5vw;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 7.5vw;
+    padding: 1vw;
+}
+
+
+.inputsidebar input {
+    width: 80vw;
+    height: 13vw;
+    top: 15vw;
+    padding: 0vw 4vw 0vw 10vw;
+    left: 10vw;
+    /* background-color: transparent; */
+    /* color: #fff; */
+    z-index: 9;
+}
+
+.LuSearch{
+    color: #111;
+    top: 27vw;
+    left: 12vw;
+}
+
+.drafts h5 {
+    color: #fff;
+    font-size: 3vw;
+    position: fixed;
+    top: 13vw;
+    left: 25vw;
+    font-weight: 100;
+    z-index: 9;
+
+}
+
+.drafts img {
+    display: none;
+}
+
+
+.draft , .project , .trash , .calendar , .Archived{
+    display: none;
+}
+.recents p {
+    color: #111;
+    font-size: 6vw;
+    font-weight: 600;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+
+
+    z-index: 1;
+}
+.boxmethod{
+    background-color: #fff;
+    position: fixed;
+    top: 45vw;
+    width: 100%;
+    height: 100vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    
+}
+.todolist{
+    /* flex-direction: column; */
+    overflow-x: scroll;
+    scrollbar-width: none;
+    /* min-width: 50vw; */
+    padding: 20vw 10vw 0vw 0vw ;
+
+}
+
+.maketodo{
+    min-width: 80vw;
+    height: 40vw;
+    position: relative;
+    left: 5%;
+    background-color: #2E99FF;
+    padding: 4vw;
+
+}
+.maketodo p {
+    font-size: 5vw;
+    color: #fff;
+    margin: 1vw 0vw 0vw 3vw;
+}
+/* maketodo another p  */
+#maketodop{
+    font-size: 4vw;
+    width: 50vw;
+    left: 12vw;
+    /* top: 5vw; */
+}
+
+/* maketodo icon  */
+.Threequarter{
+    font-size: 10vw;
+}
+
+.checkrecords{
+         min-width: 80vw;
+            height: 40vw;
+            position: relative;
+            left: 5%;
+            background-color: #F75C16;
+            padding: 4vw;
+}
+
+.records p {
+    font-size: 5vw;
+    color: #fff;
+    margin: 1vw 0vw 0vw 3vw;
+}
+
+/* maketodo another p  */
+ #addrecords{
+    font-size: 4vw;
+    width: 50vw;
+    left: 15vw;
+    color: #fff;
+    /* top: 5vw; */
+}
+
+/* maketodo icon  */
+.checkrecordlogo {
+    font-size: 10vw;
+}
+
+
+
+.endtask{
+         min-width: 80vw;
+            height: 40vw;
+            position: relative;
+            left: 5%;
+            background-color: #9747FF;
+            padding: 4vw;
+            
+}
+
+
+.endtask p {
+    font-size: 5vw;
+    color: #fff;
+    margin: 1vw 0vw 0vw 3vw;
+}
+
+/* maketodo another p  */
+#endtaks {
+    font-size: 4vw;
+    width: 50vw;
+    left: 12vw;
+    color: #fff;
+    /* top: 5vw; */
+}
+
+/* maketodo icon  */
+.streetview {
+    font-size: 10vw;
+}
+
+.aitalk{
+         min-width: 80vw;
+            height: 40vw;
+            position: relative;
+            left: 5%;
+            background-color: #111111;
+            padding: 4vw;
+}
+
+.aitalk p {
+    font-size: 5vw;
+    color: #fff;
+    margin: 1vw 0vw 0vw 3vw;
+}
+
+/* maketodo another p  */
+#chatresponse {
+    font-size: 4vw;
+    width: 50vw;
+    left: 12vw;
+    color: #fff;
+    /* top: 5vw; */
+}
+
+/* maketodo icon  */
+.logoutt {
+    font-size: 10vw;
+}
+
+
+
+/* now task addder  */
+
+.recently-view p {
+    top: 67%;
+    font-size: 4vw;
+    left: 7%;
+}
+
+
+
+#tasklistid{
+    min-width: 80vw;
+    min-height: 43vw;
+    left: 7%;
+    top: 50%;
+    position: fixed;
+padding: 4vw;
+scrollbar-width: none;
+gap: 10vw;
+padding: .1vw;
+
+}
+#taskbetta {
+    background-color: #87E64B;
+    min-width: 80vw;
+        min-height: 45vw;
+        padding: 3vw;
+scrollbar-width: none;
+            border-radius: 10px;
+}
+
+
+#taskbetta h3   {
+    font-size: 7vw;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    top: -1vw;
+}
+
+
+#taskbetta .summarybeta   {
+    font-size: 4vw;
+    width: 70vw;
+    color: #000;
+    font-weight: 600;
+}
+
+#taskbetta button{
+    font-size: 4vw;
+    top: 80%;
+    background-color: black;
+
+    padding: 1vw;
+}
+
+#taskbetta .tasktime {
+    width: 20vw;
+    padding: 1vw;
+    font-size: 4vw;
+    left: 70%;
+    position: absolute;
+    top: 80%;
+    background-color: red;
+}
+
+#taskbetta .taskbetap{
+    background-color: #fff ;
+    color: #000;
+    font-weight: 600;
+    left: 70%;
+    top: 5%;
+    width: 20vw;
+    font-size: 4vw;
+    position: absolute;
+}
+
+.recenthome p {
+    display: none;
+}
+
+.popup {
+    width: 99vw;
+    height: 115vw;
+    left: 0%;
+    top: 80%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    background-color: #7980FF;
+    border: none;
+    z-index: 999991111111111;
+}
+
+.mainmenu h2 {
+    left: 15%;
+
+}
+
+.mainmenu input {
+    width: 60%;
+    height: 10vw;
+    font-size: 4.5vw;
+    padding: 0vw 2vw 0vw 2vw;
+    border: none;
+    margin: 5vw 0vw 0vw 2vw;
+}
+
+.priorities select {
+    font-size: 5vw;
+    left: 65%;
+    top: -10vw;
+    background-color: #fff;
+    color: #000;
+}
+
+.summary textarea{
+    width: 91vw;
+    height: 30vw;
+    font-size: 4.5vw;
+    padding: 2vw 2vw 3vw 2vw;
+    margin: -7vw 0vw 0vw 2vw;
+    border: none;
+
+}
+
+.Ctd-task {
+    font-size: 4.5vw;
+    width: 40vw;
+    left: 2%;
+    top: -10vw;
+    padding: 2vw;
+    background-color: #fff;
+    color: #000;
+}
+
+.timing input {
+font-size: 5vw;
+width: 49vw;
+margin: 0vw 0vw 0vw 44vw;
+border: none;
+padding: 1.2vw;
+}
+
+.removebix {
+    font-size: 8vw;
+    left: 2%;
+}
+
+
+}

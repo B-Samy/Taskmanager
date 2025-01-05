@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+
+.betweenFlex {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    background-color: #fff;
+
+}
+
+.Sidebay{
+    width: 17vw;
+    background-color: #fff;
+    min-height: 48vw;
+    /* border-right: 1px solid #999; */
+}
+
+.bellhell{
+    position: relative;
+    left: -1vw;
+}
+
+.baycheck {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    text-align: center;
+}
+.btnimage{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: .7vw;
+    margin: 1vw;
+    padding: .4vw;
+}
+.btnimage:hover{
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.btnimage p{
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.btnimage img {
+    width: 1.5vw;
+    border-radius: 50%;
+}
+.inputsidebar input{
+    padding: .4vw 1vw .4vw 2vw;
+    width: 15vw;
+    border: none;
+    cursor: default;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    position: relative;
+    left: .5vw;
+    outline: none;
+
+}
+
+.LuSearch{
+    position: relative;
+    left: 1vw;
+    top: 1.9vw;
+    z-index: 9999;
+}
+
+.recentslogo {
+    display: flex;
+    align-items: center;
+    padding: .5vw;
+    gap: 1.7vw;
+    background-color: #E5F4FF;
+    font-size: .8vw;
+    margin: 1vw 0vw 1vw 0vw ;
+    cursor: default;
+}
+
+.LuClock{
+    position: relative;
+    left: 1vw;
+    font-size: 1vw;
+}
+
+.teams{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: none;
+    gap: 1vw;
+    margin: 1vw 0vw 0vw 0vw ;
+    padding: .2vw;
+}
+.teams h5 {
+font-size: 1vw;
+font-weight: 500;
+}
+
+.teams:hover{
+    background-color: #F5F5F5;
+    cursor: default;
+
+}
+
+.teams img {
+    width: 2vw;
+    border-radius: 50%;
+    position: relative;
+    left: .4vw;
+
+}
+
+
+.draft{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: none;
+        gap: 1.5vw;
+        margin: 0vw 0vw 0vw .6vw;
+        padding: .5vw;
+        font-size: .9vw;
+}
+.LuFile{
+    font-size: 1vw;
+}
+.draft:hover {
+    background-color: #F5F5F5;
+    cursor: default;
+
+}
+
+.project{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: none;
+        gap: 1.3vw;
+        margin: .5vw 0vw 0vw .6vw;
+        padding: .5vw;
+        font-size: .9vw;
+}
+
+.LuProject {
+    font-size: 1vw;
+}
+.project:hover {
+    background-color: #F5F5F5;
+    cursor: default;
+
+}
+.trash{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: none;
+        gap: 1.3vw;
+        margin: .5vw 0vw .5vw .6vw;
+        padding: .5vw;
+        font-size: .9vw;
+}
+.LuTrash {
+    font-size: 1vw;
+}
+.trash:hover {
+    background-color: #F5F5F5;
+    cursor: default;
+
+}
+
+.complete{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: none;
+        gap: 1.3vw;
+        margin: .5vw 0vw .5vw .6vw;
+        padding: .5vw;
+        font-size: .9vw;
+}
+
+.complete:hover {
+    background-color: #F5F5F5;
+    cursor: default;
+
+}
+.pending{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: none;
+        gap: 1.3vw;
+        margin: .5vw 0vw .5vw .6vw;
+        padding: .5vw;
+        font-size: .9vw;
+}
+
+.pending:hover {
+    background-color: #F5F5F5;
+    cursor: default;
+
+}
+
+
+#calendar-12h{
+    margin: 0vw 0vw 0vw 1vw;
+    
+}
+
+/* sidebar over  */
+
+
+/* homepage now  */
+
+
+.Homepage{
+    /* background-color: red; */
+    width: 100vw;
+
+}
+
+.recenthome{
+    padding: .6vw;
+    font-size: .9vw;
+}
+
+.recenthome p {
+    margin: .5vw 0vw 0vw 1vw ;
+    font-size: 1vw;
+}
+
+
+
+.boxmethod{
+
+}
+
+.todolist{
+    display: flex;
+    gap: 2vw;
+}
+
+.maketodo {
+    font-size: .9vw;
+    background-color: #F5F5F5;
+    width: 20vw;
+    padding: 1vw;
+    border-radius: 10px;
+    cursor: default;
+    margin: 2vw 0vw 0vw 2vw;
+    transition: .3s;
+}
+.maketodo:hover{
+    background-color: #2E99FF;
+    color: #fff;
+    transition: .3s;
+}
+.schedule{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.schedule p {
+    font-weight: 500;
+}
+.Threequarter{
+    position: relative;
+    top: 1vw;
+    font-size: 2vw;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #298AE6;
+    padding: .2vw;
+}
+.maketodo .addtask{
+    position: relative;
+    left: 4vw;
+    width: 14vw;
+    font-size: .7vw;
+    font-weight: 300;
+}
+
+
+/* check recors  */
+
+
+
+.checkrecords {
+    font-size: .9vw;
+    background-color: #F5F5F5;
+    width: 20vw;
+    padding: 1vw;
+    border-radius: 10px;
+    cursor: default;
+    margin: 2vw 0vw 0vw 0vw;
+    transition: .3s;
+}
+
+.checkrecords:hover {
+    background-color: #F75C16;
+    transition: .3s;
+    color: #fff;
+}
+
+.records {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.records p {
+    font-weight: 500;
+}
+
+.checkrecordlogo {
+    position: relative;
+    top: 1vw;
+    font-size: 2vw;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #DE5315;
+    padding: .3vw;
+}
+
+.checkrecords .addrecords {
+    position: relative;
+    left: 4vw;
+    width: 14vw;
+    font-size: .7vw;
+    font-weight: 300;
+}
+
+
+/* end task  */
+
+
+.endtask {
+    font-size: .9vw;
+    background-color: #F5F5F5;
+    width: 20vw;
+    padding: 1vw;
+    border-radius: 10px;
+    cursor: default;
+    margin: 2vw 0vw 0vw 0vw;
+    transition: .3s;
+}
+
+.endtask:hover {
+    background-color: #9747FF;
+    transition: .3s;
+    color: #fff;
+}
+
+.taskend {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.taskend p {
+    font-weight: 500;
+}
+
+.streetview {
+    position: relative;
+    top: 1vw;
+    font-size: 2vw;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #873FE5;
+    padding: .3vw;
+}
+
+.endtask .endtaks {
+    position: relative;
+    left: 4vw;
+    width: 14vw;
+    font-size: .7vw;
+    font-weight: 300;
+}
+
+
+/* talk with ai  */
+
+
+
+.aitalk {
+    font-size: .9vw;
+    background-color: #F5F5F5;
+    width: 15vw;
+    padding: 1vw;
+    border-radius: 10px;
+    cursor: default;
+    margin: 2vw 0vw 0vw 0vw;
+    transition: .3s;
+    min-height: 6.1vw;
+}
+
+.chatway {
+    text-decoration: none;
+    color: #000;
+}
+
+.aitalk:hover {
+    background-color: #111;
+    transition: .3s;
+    color: #fff;
+}
+
+.chatbot {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.chatbot p {
+    font-weight: 500;
+}
+
+.logoutt {
+    position: relative;
+    top: 1vw;
+    font-size: 2vw;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #000;
+    padding: .3vw;
+}
+
+.aitalk .chatresponse {
+    position: relative;
+    left: 3vw;
+    width: 14vw;
+    font-size: .7vw;
+    font-weight: 300;
+}
+
+
+
+
+
+/* popup  */
+
+.popup{
+    /* background-color: #7980FF; */
+    background-color: #F5F5F5;
+    width: 25vw;
+    min-height: 20vw;
+    border-radius: 10px;
+    position: relative;
+    /* left: 58vw; */
+    /* top: 2vw; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border: 1px solid #111;
+    position: absolute;
+    left: 40vw;
+    top: 25vw;
+    z-index: 1;     
+    
+    
+    
+    
+    
+     
+}
+
+
+
+ .popuptask{
+    margin: 1vw  ;
+    display: block;
+    text-align: start;
+    align-items: center;
+
+ }
+
+
+.mainmenu input{
+    width: 16vw;
+    border: 2px solid #000;
+    outline: none ;
+    padding: .5vw 1vw .5vw 1vw;
+    border-radius: 5px;
+    font-size: 1vw;
+    margin: 2vw 0vw 0vw 0vw;
+}
+.mainmenu h2 {
+    position: relative;
+    top: 1vw;
+    color: #000;
+    font-weight: 400;
+}
+
+.priorities select{
+    position: relative;
+    left: 16.5vw;
+    top: -2.7vw;
+    font-size: 1vw;
+    outline: none;
+    padding: .5vw;
+    border-radius: 5px;
+    background-color: #2E99FF;
+    color: #fff;
+}
+
+.summary textarea {
+    width: 23vw;
+    height: 7vw;
+    margin: -2vw 0vw 0vw 0vw ;
+    border-radius: 5px;
+    padding: .5vw;
+    outline: none;
+    border: 2px solid #000;
+    font-size: 1vw;
+    scrollbar-width: none;
+    resize: none;
+}
+
+.timing input{
+    width: 13vw;
+    padding: .5vw;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #000;
+    margin: 0vw 0vw 0vw 10vw;
+    font-size: 1vw;
+}
+
+
+.Ctd-task{
+    width: 9.5vw;
+        padding: .5vw;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 1vw;
+        cursor: pointer;
+        position: relative;
+        top: -2.7vw;
+        background-color: #2E99FF;
+        color: #fff;
+}
+
+
+.removebix{
+
+    position: absolute;
+    left: 22vw;
+    top: 1.1vw;
+    font-size: 1.5vw;
+cursor: pointer;
+
+}
+
+
+
+
+/* list todo  */
+
+
+.task-list{
+
+    position: absolute;
+    display: flex;
+    gap: 3vw;
+    margin: 5vw 0vw 0vw 1.8vw;
+    height: 15vw;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    width: 80vw;
+
+}
+
+.taskbeta .summarybeta{
+    width: 19vw;
+    position: relative;
+    top: -1vw;
+    font-size: .9vw;
+}
+
+.taskbeta{
+    background-color: #F5F5F5;
+    /* background-color: #ecf0f1; */
+    padding: 1vw;
+    border-radius: 10px;
+/* border: 2px solid #4cd137; */
+width: 20vw;
+height: 9vw;
+
+}
+
+.taskbeta h3 {
+    color: #000;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.taskbetap{
+    color: #fff;
+    position: relative;
+    left: 13vw;
+    top: -2vw;
+    /* background-color: #44bd32; */
+background-color: #873FE5;
+    /* border: 2px solid green; */
+width: 5vw;
+text-align:  center;
+/* z-index: 999; */
+border-radius: 5px;
+}
+.taskbeta .tasktime{
+position: relative;
+left: 13vw;
+top: 1vw;
+background-color: #DE5315;
+width: 5vw;
+text-align: center;
+border-radius: 5px;
+color: #fff;
+
+}
+
+.taskbeta button {
+    cursor: pointer;
+    font-size: .9vw;
+    padding: .2vw 1vw .2vw 1vw;
+    border: none;
+    outline: none;
+    background-color: #2E99FF;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 8vw;
+    position: absolute;
+    
+}
+
+.recently-view p {
+    position: absolute;
+    left: 18vw;
+    top: 13vw;
+    font-size: .9vw;
+    background-color: #F5F5F5;
+    padding: .4vw;
+    border-radius: 5px;
+    cursor: default;
+}
+.recently-view p:hover{
+    background-color: transparent;
+    border: 1px solid #F5F5F5;
+
+}
+
+
+
+
+/* Bottom marquee */
+
+.marquee{
+    display: flex;
+    background-color: #F5F5F5;
+    /* color: #fff; */
+    color: #111;
+    width: 180vw;
+    cursor: pointer;
+}
+
+.marquee ul {
+    display: flex;
+    gap: 18vw;
+    padding:2.5vw ;
+border-block:1px solid;
+    font-size: 1.7vw;
+    align-items: center;
+    text-align: start;
+    user-select: none;
+    animation: scroll 20s linear infinite;
+
+}
+
+@keyframes scroll {
+    to{
+        transform: translateX(-55%);
+    }
+    
+}
+
+
+.marquee li {
+    list-style: none;
+}
+.marquee span {
+    position: relative;
+    left: 20vw;
+    font-weight: 400;
+}
+
+
+
+/* bottom */
+
+
